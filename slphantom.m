@@ -1,6 +1,6 @@
 function slphantom=  slphantom(pixelsize,mageshow);
 
-%code is devloping data for shepp and logan phanton
+%code is developing data for shepp and logan phanton
 % n = size of shepp logan (n*n)
 % to generate Shepp Logan phantom of size 20*20 
 % P= slpahntom(20,0);
