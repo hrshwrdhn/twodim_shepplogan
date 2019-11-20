@@ -1,4 +1,4 @@
-function [Q,qconv] = wedgefilter_1(projection_1,tau,angles)
+function [shepp_rec] = wedgefilter_1(projection_1,tau,angles)
 % calculate 2 dim recontruction 
 [I,J]= size(projection_1); 
 W=(2*tau)^-1; % W is maximum frequency, (*-W,W) is frequncy domain
