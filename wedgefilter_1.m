@@ -46,7 +46,7 @@ Q(i,:)= tau*ifft(ifftshift(WS(i,:)));
 %  Q(i,:)= tau*ifft(ifftshift(WS(i,:)).*[hamming(128)' zeros(1,128)]);
 % % Q(i,:)= tau*ifft(ifftshift(WS(i,:)));
 
-shepp_rec = linearrec(Q,angles)
+shepp_rec = linearrec(Q,angles);
 %  end
  
   
