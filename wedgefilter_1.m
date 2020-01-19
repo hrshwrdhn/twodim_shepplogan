@@ -16,7 +16,7 @@ if i==0
  ht(j)= 1/(4*tau^2);
 elseif rem(i,2)==0
     ht(j)=0;
-elseif abs(rem (i,2))==1;
+elseif abs(rem (i,2))==1
     ht(j)= -1/(i*pi*tau)^2;
 end
 end
