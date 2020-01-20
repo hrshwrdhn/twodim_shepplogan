@@ -22,8 +22,7 @@ y=1:-2/(pixelsize-1):-1;
 
  if mageshow == 1
   shepp1= mat2gray(slphantom);
-  figure
-  imagesc(shepp1);
+  
   slpclear= imadjust(shepp1,[.5 .52], []); 
   figure, imshow(slpclear);
   title('Shepp Logan Phantom : Original')
